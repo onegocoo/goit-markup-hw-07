@@ -1,4 +1,5 @@
 .logo {
+    display: block;
     color: var(--primary-accent-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -16,11 +17,10 @@
 
 
 
-.navigation .logo {
-    display: block;
+.navigation__logo {
     margin-right: 93px;
 }
-.footer .logo {
-    display: block;
+
+.footer__logo {
     margin-bottom: 20px;
 }
