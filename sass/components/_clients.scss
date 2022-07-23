@@ -13,6 +13,11 @@
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    border: 1px solid var(--primary-accent-color);
+}
 }
 
 .clients__icon {
@@ -22,14 +27,12 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients__link:hover,
-.clients__link:focus {
-    border: 1px solid var(--primary-accent-color);
-}
-
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
+    .clients__link:hover &,
+    .clients__link:focus & {
     fill: var(--primary-accent-color);
 }
+}
+
+
+
