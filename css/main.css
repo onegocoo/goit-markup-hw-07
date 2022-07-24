@@ -17,19 +17,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* сброс стилей ссылок */
-.link {
-  color: var(--primary-text-color);
-  text-decoration: none;
-}
-
-/* сброс стилей списков */
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -40,28 +27,40 @@ body {
   padding: 94px 0;
 }
 
-/* общие стили заголовков */
-.title {
-  color: var(--title-text-color);
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
   margin: 0;
 }
 
-img {
-  display: block;
-}
-
-/* общие стили заголовков */
-.section-title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  margin-bottom: 50px;
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .section-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.title {
+  color: var(--title-text-color);
+  margin: 0;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .visually-hidden {
